@@ -1,8 +1,38 @@
 header {
-  background-color: aqua;
   height: 90px;
   line-height: 90px;
   text-align: center;
+}
+
+header h1 {
+  color: rgb(53, 53, 53);
+  margin-top: -20px;
+  border-bottom: 3px solid rgb(53, 53, 53);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+input[type='text']{
+height: 34px;
+width: 250px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.container span {
+  font-size: 25px;
+}
+
+.container p {
+  font-size: 25px;
 }
 
 #carta-texto {
@@ -11,6 +41,18 @@ header {
 
 .gerar-carta {
   margin-top: 30px;
+}
+
+#criar-carta{
+  padding: 10px;
+  background: linear-gradient(rgb(9, 37, 197), rgb(1, 31, 129));
+  border-radius: 5px;
+  border: 0;
+  color: white;
+}
+
+#criar-carta:hover{
+  box-shadow: 0 0 4px black;
 }
 
 .newspaper {
